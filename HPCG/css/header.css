@@ -1,0 +1,50 @@
+.header {
+  height: 10vh;
+  background: url(/image/header_bg3.jpg) no-repeat center/cover;
+  margin: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 1rem;
+  z-index: 100;
+}
+
+.header img {
+  height: 4.5rem;
+}
+
+.home_SI button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: white solid;
+  color: white;
+  transition: 1.5s;
+  border-radius: 0.5rem;
+}
+
+.home_SI button:hover {
+  background-color: white;
+  color: black;
+  border: black solid;
+  transition: 0.5s;
+}
+
+.h_search {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: white solid;
+  transition: 1.5s;
+  border-radius: 0.5rem;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.h_search:hover {
+  background-color: white;
+  border: black solid;
+  transition: 0.5s;
+}

@@ -1,0 +1,80 @@
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.index_bg1 {
+  background: url(/image/home_bg2.jpg) repeat center;
+  width: 15rem;
+}
+
+.index_home {
+  background: rgba(81, 81, 81, 0.5) center/cover;
+  width: 80rem;
+}
+
+.index_home menu {
+  background: rgba(81, 81, 81, 1) center/cover;
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  height: 30rem;
+  width: 80rem;
+}
+
+.index_bg2 {
+  background: url(/image/home_bg2.jpg) repeat center;
+  width: 15rem;
+}
+
+.home_body {
+  background: url(/image/home_bg4.jpg);
+}
+
+.home_txt {
+  width: 38rem;
+  padding: 0 1rem;
+  display: flex;
+  font-size: 2.5rem;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+.home_img {
+  width: 38rem;
+  height: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.home_img a {
+  padding: 2rem;
+  backdrop-filter: blur(0.3rem);
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: 1s;
+}
+
+.home_img a:hover {
+  font-size: 3rem;
+  transition: 0.5s ease-in-out;
+}
+
+.home_blog .home_img {
+  background: url(/image/home_bg5.jpg) no-repeat center/cover;
+}
+
+.home_booster .home_img {
+  background: url(/image/home_bg6.jpg) no-repeat center/cover;
+}
+
+.home_collection .home_img {
+  background: url(/image/home_bg7.jpg) no-repeat center/cover;
+}
+
+.home_account .home_img {
+  background: url(/image/home_bg8.jpg) no-repeat center/cover;
+}

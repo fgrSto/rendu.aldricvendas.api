@@ -1,0 +1,30 @@
+.travaux {
+  width: auto;
+  height: 100vh;
+  background: url("https://t3.ftcdn.net/jpg/01/78/53/98/360_F_178539889_XaW8ljqMs4RhvicvRbVEZlVrv82WYkAw.jpg")
+    no-repeat center/cover;
+}
+
+.header_escape {
+  background: white;
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  text-decoration: none;
+  display: flex;
+  margin: 1rem;
+}
+
+.header_escape img {
+  width: auto;
+  height: 3rem;
+  transform: scaleX(-1);
+}
+
+.header_escape p {
+  color: rgba(81, 81, 81, 255);
+  font-size: 3rem;
+}
